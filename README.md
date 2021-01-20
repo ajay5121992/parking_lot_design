@@ -2,8 +2,8 @@
 Parking lot design with python code, class diagram and workflow
 
 
+Parking lot Design Project
 
-///////////Parking lot Design Project/////////////////////
 The system provides functionality of  adding, removing and listing out the (company)vehicles available at parking.
 
 Functions description:
@@ -21,7 +21,7 @@ the type of the vehicle is considered to fill the slot.
 d). Vehicle - Object with plate no., company name and their type. A vehicle has the
 attributes of license plate and the company it is from.
  
-///////////////////////////////////////////////////////////////
+
 The Project contains of 2 files:
 1. Parking_Lot_Design.py
 2. Driver_file.py

@@ -3,27 +3,33 @@ Parking lot design with python code, class diagram and workflow
 
 
 Parking lot Design Project
-
 The system provides functionality of  adding, removing and listing out the (company)vehicles available at parking.
 
 Functions description:
 a). Park_vehicle - This function inserts a vehicle accordingly, also takes care of what company vehicle it is.
+
 b). Leave_operation - This function exits a vehicle 'C' in a level 'm'.
-c). Company_parked - This function allows the user to view the list of vehicles parked
-for a particular company.
+
+c). Company_parked - This function allows the user to view the list of vehicles parked for a particular company.
 
 Functional Objects:
+
 a). Parking_Allocation - A parking lot is made up of 'n' number of levels/floors and 'm' number of slots per floor.
+
 b). Parking_Levels - Each level is an independent entity with a floor number, its lanes and the
 slots within it. The number of lanes are designed based on the number of slots. 10 slots make one lane
+
 c). Slots - The slots are considered as the independent entities to each other where in
 the type of the vehicle is considered to fill the slot.
+
 d). Vehicle - Object with plate no., company name and their type. A vehicle has the
 attributes of license plate and the company it is from.
- 
+
+
 
 The Project contains of 2 files:
 1. Parking_Lot_Design.py
+
 2. Driver_file.py
 
 Parking_Lot_Design.py:- 
